@@ -1,0 +1,50 @@
+{
+    "name":  "speaker-map",
+    "logo":  "🗺️",
+    "exe":  "SpeakerMap.exe",
+    "desc":  "Free, open-source speaker diarization for Windows — see who spoke when, rename voices, export tracks. 100 MB portable, offline, MIT.",
+    "topics":  [
+                   "speaker-diarization",
+                   "voice-separation",
+                   "transcription",
+                   "podcast-editing",
+                   "onnx",
+                   "ai-tools",
+                   "windows",
+                   "windows-10",
+                   "windows-11",
+                   "csharp",
+                   "dotnet",
+                   "timeline",
+                   "speaker-labels",
+                   "batch-processing",
+                   "offline",
+                   "portable",
+                   "open-source",
+                   "mit-license"
+               ],
+    "features":  [
+                     "✅ **Who spoke when** — recordings split into speaker turns with a color timeline you can trust",
+                     "✅ **Local diarization models** — ONNX pipelines run on your machine; interviews never reach a cloud",
+                     "✅ **Speaker renaming** — click a lane, type a real name, and every turn, export and transcript follows",
+                     "✅ **Merge and split turns** — fix the model\u0027s mistakes by hand and the labels propagate",
+                     "✅ **Per-speaker export** — each voice written as its own audio track and transcript file",
+                     "✅ **Batch interviews** — a folder of recordings diarized overnight with consistent naming",
+                     "✅ **100 MB self-contained exe** — runtime bundled, models download separately, offline after that, MIT"
+                 ],
+    "compare":  [
+                    "| Feature | **speaker-map** | pyannote scripts | Cloud transcription | Audacity manual |",
+                    "|---|:---:|:---:|:---:|:---:|",
+                    "| Price | **Free, MIT** | Free, OSS | Paid per hour | Free, OSS |",
+                    "| Open source | **Yes** | Yes | No | Yes |",
+                    "| GUI turn correction | **Yes** | No | Partial | Manual labels",
+                    "| Audio stays local | **Yes** | Yes | Upload | Yes",
+                    "| Per-speaker track export | **Yes** | Scripted | Rare | No",
+                    "| Portable, no install | **Yes, 100 MB** | Python env | Browser | Installer"
+                ],
+    "faqQ":  "how to identify who spoke when in an interview recording offline?",
+    "faqA":  "Diarization usually lives in a research repo where a single dependency bump breaks the evening, and cloud services bill per hour of audio. speaker-map gives you a color timeline, one-click renaming and per-speaker track exports locally. It is a 100 MB portable exe, MIT, offline.",
+    "s1":  "Dark timeline (#121418, violet #C084FC): waveform with four colored speaker lanes, turn blocks labeled speaker 1 to 4, playhead at 12 minutes 40 seconds.",
+    "s2":  "Rename flow: lane context menu open with speaker 3 selected, text field typing Marina, propagation note reading updates 87 turns and 1 transcript.",
+    "s3":  "Export step: per-speaker checkboxes all on, track format WAV, transcript formats list showing txt and srt, summary chip reading 4 tracks written."
+}
